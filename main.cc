@@ -69,11 +69,11 @@ void print(node * list, string fileName){
       outFile << ".";
       double temp = list->data *10;
       int temp2 = (int)temp;
-      outFile << temp2;
+      outFile << temp2 << endl;
       list = list->next;
       continue;
     }
-    outFile << list->data;
+    outFile << list->data << endl;
     list = list->next;
   }
 }
